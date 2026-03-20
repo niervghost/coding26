@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'ludo';
+    src: url(../assets/fonts/ludovicus-ii-font/LudovicusIiDemo-qZLMd.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    color: #F0F0F0;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "ludo", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "ludo", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "ludo", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.copyright {
+    color: #1A1A1A;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #6B1F1F;
+}
+
+.s1 {
+    background-color: #1A1A1A;
+    color: #F0F0F0;
+}
+
+.s2 {
+    background-color: #6B1F1F;
+    color: #F0F0F0;
+}
+
+.s3 {
+    background-color: #1A1A1A;
+    color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4 {
+    background-color: #7a7a7a;
+    color: #1A1A1A;
+}
+
+.about {
+    color: #9B1C1C;
+}
+
+.music {
+    color: #e1bb51;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vinyl {
+    width: 70%;
+}
+
+.cassette {
+    width: 70%;
+}
+
+.hero-logo {
+    width: 500px;
+    background: transparent;
+    max-width: 90vw;
+}
+
+#wordfull,
+#coloredfill {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #6B1F1F;
+}
+
+.logo2 {
+    width: 250px;
+}
+
+.btn1 {
+    border-color: #e1bb51;
+    color: #e1bb51;
+}
+
+.toptext {
+    color: #9B1C1C;
+}
+
+.ticket-btn {
+    border-color: #e1bb51;
+    color: #F0F0F0;
+}
+
+.tour-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tour-list {
+    list-style: none;
+    border-top: 0.5px solid #2e2e2e;
+}
+
+.tour-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.4rem 0;
+    border-bottom: 0.5px solid #2e2e2e;
+    transition: background 0.2s;
+    flex-wrap: wrap;
+}
+
+.tour-item:hover {
+    background: #202020;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.tour-date {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.08em;
+    color: #e1bb51;
+    min-width: 120px;
+}
+
+.tour-info {
+    flex: 1;
+    min-width: 160px;
+}
+
+.tour-city {
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0F0F0;
+}
+
+.tour-venue {
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+    margin-top: 3px;
+    letter-spacing: 0.02em;
+}
+
+.ticket-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    border: 0.5px solid #4a4a4a;
+    border-radius: 2px;
+    background: transparent;
+    color: #F0F0F0;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+    white-space: nowrap;
+}
+
+.ticket-btn:hover {
+    background: #e1bb51;
+    border-color: #e1bb51;
+    color: #0d0d0d;
+}
+
+.tour-footer {
+    margin-top: 2rem;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23F0F0F0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
